@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Nav from './nav';
-import clientes from './clientes';
-import mantenimientos from './mantenimientos';
-import personal from './personal';
-import informes from './informes';
+import Nav from './pages/nav';
+import clientes from './pages/clientes';
+import mantenimientos from './pages/mantenimientos';
+import personal from './pages/personal';
+import informes from './pages/informes';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
