@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import nav from './nav';
+import Nav from './nav';
 import clientes from './clientes';
 import mantenimientos from './mantenimientos';
 import personal from './personal';
@@ -11,8 +11,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <div classname="App">
-        <nav />
+      <div className="App">
+        <Nav />
         <Switch>
           <Route path='/' exact component={home} />
           <Route path="/clientes" component={clientes} />
