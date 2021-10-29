@@ -5,6 +5,8 @@
 1- se creó el repositorio https://github.com/marianomena/Caldar-app
 2- se creó rama development
 3- se modificó archivo readme
+4- se instaló la app caldar 
+5- 
 
 # Integrantes del equipo
 
