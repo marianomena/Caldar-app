@@ -5,7 +5,7 @@ import './Navbar.css';
 function Navbar () {
 
     return (
-        <section>
+        <section className="navbar">
             <a href="/" className="navbar-item">Home</a>
             <a href="/altaCaldera" className="navbar-item">Alta</a>
             <a href="/bajaCaldera" className="navbar-item">Baja</a>
